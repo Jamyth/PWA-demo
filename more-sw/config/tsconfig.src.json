@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": {
+        "target": "ES5",
+
+        "sourceMap": true,
+        "inlineSources": true,
+
+        "jsx": "react",
+        "baseUrl": "../src",
+
+        "importsNotUsedAsValues": "preserve"
+    },
+    "include": ["../src"]
+}
